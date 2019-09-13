@@ -13,6 +13,7 @@
   <modules>
     <module>apiary-receiver-common</module>
     <module>apiary-receiver-sqs</module>
+    <module>apiary-receiver-kafka</module>
   </modules>
 
 </project>

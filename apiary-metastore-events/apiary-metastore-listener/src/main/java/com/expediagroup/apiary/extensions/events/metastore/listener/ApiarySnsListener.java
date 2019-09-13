@@ -58,7 +58,7 @@ public class ApiarySnsListener extends MetaStoreEventListener {
 
   private static final Logger log = LoggerFactory.getLogger(ApiarySnsListener.class);
   static final String PROTOCOL_VERSION = "1.0";
-  private static final String TOPIC_ARN = System.getenv("SNS_ARN");
+  private static final String TOPIC_ARN = "arn:aws:sns:us-west-2:440407435941:abhimanyu-sns-test";
 
   private final String tableParamFilter = System.getenv("TABLE_PARAM_FILTER");
   private Pattern tableParamFilterPattern;
